@@ -6,8 +6,8 @@
     <div class="max-w-screen-xl mx-auto px-4 py-4 flex items-center justify-between">
 
         <!-- Логотип -->
-        <a href="/" class="flex items-center gap-2">
-            <img src="{{ asset('storage/' . $logo->logo_image) }}" alt="Logo" class="h-6">
+        <a href="/" class="flex items-center gap-1">
+            <img src="{{ asset('storage/' . $logo->logo_image) }}" alt="Logo" class="h-7">
             <span class="text-xl font-semibold">{{ $logo->logo_text }}</span>
         </a>
 

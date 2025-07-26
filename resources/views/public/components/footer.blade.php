@@ -9,7 +9,7 @@
                     <span class="text-xl font-bold text-white">{{ $logo->logo_text }}</span>
                 </a>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    {!! $footer->description ?? 'Краткое описание вашей компании или проекта.' !!}
+                    {!! $logo->logo_description ?? 'Краткое описание вашей компании или проекта.' !!}
                 </p>
             </div>
 
